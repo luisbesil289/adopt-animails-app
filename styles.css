@@ -16,3 +16,15 @@ nav.navbar {
     background-image: url("assets/dog_05.jpg");
     background-size: cover;
 }
+
+.serchVertical{
+    border-right: 5px solid black;
+}
+
+.serchVerticalR{
+    border-left: 5px solid black;
+}
+
+.contCarr{
+    margin:25px;
+}
