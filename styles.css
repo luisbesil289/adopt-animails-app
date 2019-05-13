@@ -1,13 +1,15 @@
-.LogIn{
+.LogIn {
     margin-left: 10px;
 }
 
 /* cambiar tipo de letra */
+
 nav.navbar ul.nav li {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
- 
+
 /* cambiar el color de fondo a la barra */
+
 nav.navbar {
     background-color: #CC1414;
 }
@@ -17,15 +19,14 @@ nav.navbar {
     background-size: cover;
 }
 
-.serchVerticalL{
+.serchVerticalL {
     border-right: 5px solid black;
 }
 
-
-.serchVerticalR{
+.serchVerticalR {
     border-left: 5px solid black;
 }
 
-.contCarr{
-    margin:25px;
+.contCarr {
+    margin: 25px;
 }
