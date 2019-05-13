@@ -17,9 +17,10 @@ nav.navbar {
     background-size: cover;
 }
 
-.serchVertical{
+.serchVerticalL{
     border-right: 5px solid black;
 }
+
 
 .serchVerticalR{
     border-left: 5px solid black;
@@ -27,4 +28,13 @@ nav.navbar {
 
 .contCarr{
     margin:25px;
+}
+
+.fichaAnimal .col-sm-4 {
+    margin: 2.1rem!important;
+    width: 100px;
+    -ms-flex: 0 0 33%;
+    flex: 0 0 33%;
+    max-width: 32%;
+ 
 }
