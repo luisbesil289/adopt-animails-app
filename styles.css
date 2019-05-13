@@ -29,12 +29,3 @@ nav.navbar {
 .contCarr{
     margin:25px;
 }
-
-.fichaAnimal .col-sm-4 {
-    margin: 2.1rem!important;
-    width: 100px;
-    /*-ms-flex: 0 0 33%;
-     flex: 0 0 33%;
-    max-width: 32%;*/
- 
-}
