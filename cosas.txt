@@ -1,3 +1,10 @@
 Usar la etiqueta date para html asi aparece el calendario
 se puede sobreescribir css col col-4 listado Producto
 transparencia al 50% con alfa 0.5 rgba(44,44,44,0.5)
+
+line-height: separacion entre lineas, interlineado.
+letter-spacing: espacio entre caracteres
+word-spacing: espacio entre palabras
+vertical-align: alineacion vertical
+text-indent: sangria
+text-align: alineacion de texto
