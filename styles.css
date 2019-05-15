@@ -32,6 +32,21 @@ nav.navbar {
     border-left: 1px solid #b3d7ff;
 }
 
-.contCarr {
-    margin: 25px;
+/*.colCarrusel {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center, center;
+    background-repeat: no-repeat;
+    margin:25px;
+}*/
+
+.conCarrusel{
+    margin-top:50px;
+    
+}
+
+.colIzq {
+    margin-right:100px;   
 }
