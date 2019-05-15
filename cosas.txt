@@ -1,1 +1,3 @@
 Usar la etiqueta date para html asi aparece el calendario
+se puede sobreescribir css col col-4 listado Producto
+transparencia al 50% con alfa 0.5 rgba(44,44,44,0.5)
