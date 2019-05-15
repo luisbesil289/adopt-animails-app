@@ -10,10 +10,6 @@ nav.navbar ul.nav li {
 
 /* cambiar el color de fondo a la barra */
 
-nav.navbar {
-    background-color: #CC1414;
-}
-
 .jumbotron {
     background-image: url("assets/dog_05.jpg");
     -webkit-background-size: cover;
@@ -42,11 +38,10 @@ nav.navbar {
     margin:25px;
 }*/
 
-.conCarrusel{
-    margin-top:50px;
-    
+.conCarrusel {
+    margin-top: 50px;
 }
 
 .colIzq {
-    margin-right:100px;   
+    margin-right: 40px;
 }
