@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <title>Bootstrap Example</title>
+  <title>testing</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="styles.css">
@@ -10,50 +10,89 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
+  <!-- Creamos el header con la cabecera de la pagina, en este caso solo tenemos el titulo -->
+  <header>
 
-  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="navbar-nav mr-auto">        
-        <li class="nav-item active">
-          <a class="nav-link" href="list.html">Home <span class="sr-only"></span></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="newAnimal.html">Nuevo <span class="sr-only"></span></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="blog.html">Blog <span class="sr-only"></span></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="whishlist.html">Whishlist <span class="sr-only"></span></a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
-      <button class="LogIn btn btn-outline-primary" type="submit"> LogIn -
-        Register
+  </header>
+  <!-- Creamos un menu para navegacion por la pagina -->
+  <nav>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
       </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="list.html">Home <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="newAnimal.html">Nuevo <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="blog.html">Blog <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="whishlist.html">Whishlist <span class="sr-only"></span></a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        <button class="LogIn btn btn-outline-primary" type="submit"> LogIn -
+          Register
+        </button>
+      </div>
+    </nav>
+
+    <!-- jumbotron -->
+    <div class="jumbotron">
+      <div class="container">
+        <p class="h1 text-primary">Frase del día</p>
+        <br />
+        <p>“La conmiseración con los animales está íntimamente unida con la bondad de carácter, de tal manera que se
+          puede afirmar de seguro, que quien es cruel con los animales no puede ser buena persona”.<br> <strong>Arthur
+            Schopenhauer.</strong></p>
+        <a href="frases.html"><button type="button" class="btn btn-primary">Frases ... >></button></a>
+
+      </div>
     </div>
-  </nav>
-  <br>
+    <!-- fin jumbotron -->
 
-  <div class="container">
-    <h3>Collapsible Navbar</h3>
-    <p>In this example, the navigation bar is hidden on small screens and replaced by a button in the top right corner
-      (try to re-size this window).</p>
-    <p>Only when the button is clicked, the navigation bar will be displayed.</p>
-    <p>Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.
-    </p>
-  </div>
 
+    <!-- Añadimos una seccion -->
+    <section>
+      <!-- Y dentro de esta seccion añadimos varios articulos -->
+      <article>
+        <h2>Documento en blanco</h2>
+        <p>Aqui escribiria el texto de mi articulo junto con fotos o cualquier otra cosa que pueda necesitar</p>
+      </article>
+    </section>
+
+
+    <!-- footer -->
+    <footer>
+      <hr />
+      <blockquote class="blockquote"></blockquote>
+      <footer class="blockquote-footer text-center">
+        <div class=footer>
+          <p>Posted by: Luis Besil</p>
+          <p>Contact information: <a href="mailto:l.besil@gmail.com">l.besil@gmail.com</a></p>
+      </footer>
+      </blockquote>
+    </footer>
 </body>
+
+
+<style>
+
+
+
+</style>
 
 </html>

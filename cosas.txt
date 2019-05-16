@@ -8,3 +8,7 @@ word-spacing: espacio entre palabras
 vertical-align: alineacion vertical
 text-indent: sangria
 text-align: alineacion de texto
+
+
+semantic html 5 page
+https://www.semrush.com/blog/semantic-html5-guide/

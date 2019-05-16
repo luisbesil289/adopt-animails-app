@@ -1,4 +1,10 @@
-.nav .cla{
+body {
+    font-family: "futura_icgregular";
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+.nav .cla {
     margin-left: 30px;
 }
 
@@ -11,7 +17,7 @@ nav.navbar ul.nav li {
 /* cambiar el color de fondo a la barra */
 
 .jumbotron {
-    background-image: url("assets/dog_05.jpg");
+   /* background-image: url("assets/fondo.jpeg"); */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -35,7 +41,7 @@ nav.navbar ul.nav li {
     background-size: cover;
     background-position: center, center;
     background-repeat: no-repeat;
-    margin:25px;
+    margin: 25px;
 }
 
 .conCarrusel {
@@ -46,7 +52,7 @@ nav.navbar ul.nav li {
     margin-right: 40px;
 }
 
-.LogIn{
+.LogIn {
     margin-left: 8px;
     text-align: right;
-  }
+}
