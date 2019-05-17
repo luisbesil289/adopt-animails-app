@@ -4,9 +4,31 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-.nav .cla {
-    /*margin-left: 30px;*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3white33333;
 }
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(102, 181, 255);
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+li a:hover {
+    background-color: #b4bfff;
+}
+
 
 /* cambiar tipo de letra */
 
@@ -14,10 +36,11 @@ nav.navbar ul.nav li {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+
 /* cambiar el color de fondo a la barra */
 
 .jumbotron {
-   /* background-image: url("assets/fondo.jpeg"); */
+    /* background-image: url("assets/fondo.jpeg"); */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -52,17 +75,19 @@ nav.navbar ul.nav li {
     margin-right: 40px;
 }
 
-.LogIn {
-    margin-left: 8px;
+.col LogIn {
+    margin-left: 28px;
     text-align: right;
 }
 
-.logo{
+.logo {
     text-align: center;
-  /*padding-top:5px;
-    background-color:white;*/
-  }
-  .logo img{
-    width: 300px;
-   /* border: 2px solid black;*/
-  }
+    padding-top: 5px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 250px;
+    margin: 0 auto;
+}
