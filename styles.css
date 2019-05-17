@@ -5,7 +5,7 @@ body {
 }
 
 .nav .cla {
-    margin-left: 30px;
+    /*margin-left: 30px;*/
 }
 
 /* cambiar tipo de letra */
@@ -59,9 +59,10 @@ nav.navbar ul.nav li {
 
 .logo{
     text-align: center;
-  
-    background-color:white;
+  /*padding-top:5px;
+    background-color:white;*/
   }
   .logo img{
     width: 300px;
+   /* border: 2px solid black;*/
   }
