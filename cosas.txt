@@ -8,7 +8,21 @@ word-spacing: espacio entre palabras
 vertical-align: alineacion vertical
 text-indent: sangria
 text-align: alineacion de texto
-
+background-attachment:scroll;
+overflow:scroll;
+overflow-y: scroll;
+overflow-x: hidden;
+box-shadow: 9px 5px 5px rgb(0,0,0,0.5)
+opacity: 30%;
+transform
+border-box
+Position
+flex-box fluid system
+float
+Clear
 
 semantic html 5 page
 https://www.semrush.com/blog/semantic-html5-guide/
+
+www.caniuse.com para saber si alguna propiedad no es soportada por algun navegador
+
