@@ -15,64 +15,61 @@
 
 <body>
   <!-- Creamos el header con la cabecera de la pagina, en este caso solo tenemos el titulo -->
-  <header>
+  <main>
+    <header>
 
-  </header>
-  <!-- Creamos un menu para navegacion por la pagina -->
 
-  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-    <a class="navbar-brand" href="list.html"><img src="assets/Logo-02.png" alt="Smiley face" height="63"
-        width="80"></span></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="list.html">Home <span class="sr-only"></span></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="newAnimal.html">Nuevo <span class="sr-only"></span></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="blog.html">Blog <span class="sr-only"></span></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="whishlist.html">Whishlist <span class="sr-only"></span></a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-      </form>
-      <button class="LogIn btn btn-outline-light" type="submit"> LogIn -
-        Register
-      </button>
-    </div>
-  </nav>
+      <!-- Creamos un menu para navegacion por la pagina -->
 
-  <!-- jumbotron -->
-  <div class="jumbotron">
-    <div class="container">
-      <p class="h1 text-primary">Frase del día</p>
-      <br />
-      <p>“La conmiseración con los animales está íntimamente unida con la bondad de carácter, de tal manera que se
-        puede afirmar de seguro, que quien es cruel con los animales no puede ser buena persona”.<br> <strong>Arthur
-          Schopenhauer.</strong></p>
-      <a href="frases.html"><button type="button" class="btn btn-primary">Frases ... >></button></a>
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand" href="list.html"><img src="assets/Logo-02.png" alt="Smiley face" height="63"
+            width="80"></span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="list.html">Home <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="newAnimal.html">Nuevo <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="blog.html">Blog <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="whishlist.html">Whishlist <span class="sr-only"></span></a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+          </form>
+          <button class="LogIn btn btn-outline-light" type="submit"> LogIn -
+            Register
+          </button>
+        </div>
+      </nav>
+
+    </header>
+
+    <div class="logo">
+      <img src="assets/Patitas-01.jpg" class="img-responsive" alt="" title="">
 
     </div>
-  </div>
-  <!-- fin jumbotron -->
 
 
-  <!-- Añadimos una seccion -->
-  <section>
-    <!-- Y dentro de esta seccion añadimos varios articulos -->
-    <article>
-
-    </article>
-  </section>
 
 
+
+    <!-- Añadimos una seccion -->
+    <section>
+      <!-- Y dentro de esta seccion añadimos varios articulos -->
+      <article>
+
+      </article>
+    </section>
+
+  </main>
   <!-- footer -->
   <footer>
     <hr />
@@ -84,15 +81,7 @@
     </footer>
     </blockquote>
 
-    <div class="social">
-      <ul>
-        <li><a href="http://www.facebook.com/falconmasters" target="_blank" class="icon-facebook"></a></li>
-        <li><a href="http://www.twitter.com/falconmasters" target="_blank" class="icon-twitter"></a></li>
-        <li><a href="http://www.googleplus.com/falconmasters" target="_blank" class="icon-googleplus"></a></li>
-        <li><a href="http://www.pinterest.com/falconmasters" target="_blank" class="icon-pinterest"></a></li>
-        <li><a href="mailto:contacto@falconmasters.com" class="icon-mail"></a></li>
-      </ul>
-    </div>
+
   </footer>
 
 
@@ -100,65 +89,7 @@
 
 
 <style>
-  body {
-    color: grey;
-  }
 
-
-  .social {
-    position: fixed;
-    /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
-    left: 0;
-    /* Establecemos la barra en la izquierda */
-    top: 200px;
-    /* Bajamos la barra 200px de arriba a abajo */
-    z-index: 2000;
-    /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
-  }
-
-  .social ul {
-    list-style: none;
-  }
-
-  .social ul li a {
-    display: inline-block;
-    color: #fff;
-    background: #000;
-    padding: 10px 15px;
-    text-decoration: none;
-    -webkit-transition: all 500ms ease;
-    -o-transition: all 500ms ease;
-    transition: all 500ms ease;
-    /* Establecemos una transición a todas las propiedades */
-  }
-
-  .social ul li .icon-facebook {
-    background: #3b5998;
-  }
-
-  /* Establecemos los colores de cada red social, aprovechando su class */
-  .social ul li .icon-twitter {
-    background: #00abf0;
-  }
-
-  .social ul li .icon-googleplus {
-    background: #d95232;
-  }
-
-  .social ul li .icon-pinterest {
-    background: #ae181f;
-  }
-
-  .social ul li .icon-mail {
-    background: #666666;
-  }
-
-  .social ul li a:hover {
-    background: #000;
-    /* Cambiamos el fondo cuando el usuario pase el mouse */
-    padding: 10px 30px;
-    /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
-  }
 </style>
 
 </html>
