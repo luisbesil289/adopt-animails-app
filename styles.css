@@ -9,7 +9,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #3white33333;
+    background-color: white;
 }
 
 li {
@@ -78,16 +78,4 @@ nav.navbar ul.nav li {
 .col LogIn {
     margin-left: 28px;
     text-align: right;
-}
-
-.logo {
-    text-align: center;
-    padding-top: 5px;
-    background-color: white;
-    margin: 0 auto;
-}
-
-.logo img {
-    width: 250px;
-    margin: 0 auto;
 }
