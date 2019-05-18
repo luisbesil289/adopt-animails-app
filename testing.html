@@ -49,26 +49,26 @@
 
     <div class="logo">
         <img src="assets/Patitas-01.jpg" class="img-responsive" alt="" title="">
-
+        <hr />
     </div>
-    <hr />
-    <hr />
 
     <main>
-
         <section>
-            <div class="container-fluid shadow-lg p-3 mb-5 bg-white rounded">
+            <div class="container-flex shadow-lg p-3 mb-5 bg-white rounded">
                 <div class="row justify-content-start">
                     <div class="serchVerticalL col col-sm-2 borderless">
-
                         <form class="form" action="">
                             <p>
                                 <h4>Filtros</h4>
                             </p>
                             <hr />
                             <div class="form-group">
-                                <label for="tipo">Tipo</label>
-                                <input type="tipo" class="form-control" id="tipo">
+                                <label for="tipo"><p><h6>Tipo</h6></p></label>
+                                <select class="custom-select custom-select-md">    
+                                    <option selected></option>
+                                    <option value="1">Perro</option>
+                                    <option value="2">Gato</option>
+                                </select>
                             </div>
                             <div class="form-group">
                                 <label for="nombre">Nombre</label>
@@ -85,7 +85,11 @@
                             </div>
                             <div class="form-group">
                                 <label for="sexo">Sexo</label>
-                                <input type="sexo" class="form-control" id="sexo">
+                                <select class="custom-select custom-select-md">
+                                    <option selected></option>
+                                    <option value="1">Macho</option>
+                                    <option value="2">hembra</option>
+                                </select>
                             </div>
                             <div class="form-group">
                                 <label for="edad">Edad</label>
@@ -99,14 +103,8 @@
                                 <label for="ojos">Color de ojos</label>
                                 <input type="ojos" class="form-control" id="ojos">
                             </div>
-
-                            <a href="animal.html" class="btn btn-primary btn-md active" role="button" aria-pressed="true">Buscar</a>
-                            <button type="reset" class="btn btn-secondary">Cancelar</button>
                         </form>
                     </div>
-
-
-
                     <div class="col col-sm-center">
                         <div class="row">
                             <div class="col col-sm-4">
@@ -123,7 +121,7 @@
                                 <div class="card">
                                     <img src="assets/dog_06.jpg" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <h5 class="card-title">Zeus</h5>
+                                        <h5 class="card-title">Dante</h5>
                                         <p class="card-text">Some quick example tdfdfg dfg dfgdfg dfgfd gext to build on the card title and make up the bulk of the card's content.</p>
                                         <a href="animal.html" class="btn btn-primary btn-block">Ver</a>
                                     </div>
@@ -144,7 +142,7 @@
                                 <div class="card">
                                     <img src="assets/dog_11.jpg" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <h5 class="card-title">Clarita</h5>
+                                        <h5 class="card-title">Rosita</h5>
                                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                         <a href="animal.html" class="btn btn-primary btn-block">Ver</a>
                                     </div>
@@ -154,7 +152,7 @@
                                 <div class="card">
                                     <img src="assets/dog_08.jpg" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <h5 class="card-title">Clarita</h5>
+                                        <h5 class="card-title">Catalina</h5>
                                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                         <a href="animal.html" class="btn btn-primary btn-block">Ver</a>
                                     </div>
@@ -164,7 +162,7 @@
                                 <div class="card">
                                     <img src="assets/dog_09.jpg" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <h5 class="card-title">Clarita</h5>
+                                        <h5 class="card-title">Juan Carlos</h5>
                                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                         <a href="animal.html" class="btn btn-primary btn-block">Ver</a>
                                     </div>
@@ -173,9 +171,10 @@
                         </div>
                     </div>
                     <div class="serchVerticalR col col-sm-2">
-                        <img src="assets/publicidad_01.jpg" class="card-img-top" alt="...">
                         <hr />
-                        <img src="assets/publicidad_02.jpg" class="card-img-top" alt="...">
+                        <img src="assets/publicidad_01.jpg" class="card-img-top" alt="... ">
+                        <hr />
+                        <img src="assets/publicidad_02.jpg" class="card-img-top" alt="... ">
                         <hr />
                     </div>
                 </div>
@@ -186,8 +185,8 @@
     <!-- footer -->
 
     <hr />
-    <blockquote class="blockquote"></blockquote>
-    <footer class="blockquote-footer text-center">
+    <blockquote class="blockquote "></blockquote>
+    <footer class="blockquote-footer text-center ">
         <div class=footer>
             <p>Posted by: Luis Besil</p>
     </footer>

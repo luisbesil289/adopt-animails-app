@@ -38,10 +38,13 @@ body h4 {
     border-right: 2px solid #b3d7ff;
     text-align: left;
     margin-left: 5px;
+    background-color: #343a40!important;
+    color: white;
 }
 
 .serchVerticalR {
     border-left: 2px solid #b3d7ff;
+    background-color: #343a40!important;
 }
 
 .colCarrusel {
