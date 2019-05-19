@@ -13,7 +13,7 @@ overflow:scroll;
 overflow-y: scroll;
 overflow-x: hidden;
 box-shadow: 9px 5px 5px rgb(0,0,0,0.5)
-opacity: 30%;
+    opacity: 0.2;
 transform
 border-box
 Position
