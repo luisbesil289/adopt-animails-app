@@ -25,6 +25,9 @@ body p {
     color: rgb(0, 50, 78);
 }
 
+.card{
+    margin-bottom: 1.5em;
+}
 .card .card-body {
     background-color: rgb(240, 251, 255);
     background-image: url("assets/Logo-02.png");
@@ -154,3 +157,8 @@ footer .copyright {
     opacity: .5;
     line-height: 1.7;
 }
+
+
+/* 
+social
+*/
