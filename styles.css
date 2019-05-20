@@ -118,30 +118,6 @@ footer {
     text-align: center;
 }
 
-footer ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333333;
-}
-
-footer li {
-    float: left;
-}
-
-footer li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-}
-
-footer li a:hover {
-    background-color: #111111;
-}
-
 footer p {
     background-color: #fff;
     border-top: 1px solid #ededed;
