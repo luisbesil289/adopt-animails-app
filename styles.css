@@ -101,7 +101,8 @@ body p {
     background-color: #343a40!important;
 }
 
-.colCarrusel {
+
+/* .colCarrusel {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -117,7 +118,7 @@ body p {
 
 .colIzq {
     margin-right: 40px;
-}
+} */
 
 .logo {
     text-align: center;
