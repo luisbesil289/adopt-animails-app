@@ -101,6 +101,17 @@ body p {
     background-color: #343a40!important;
 }
 
+.contFicha {
+    background-image: url("assets/cat-1045782_1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contFicha img {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
 
 /* .colCarrusel {
     -webkit-background-size: cover;
