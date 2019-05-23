@@ -42,18 +42,32 @@ body p {
     line-height: 20px;
     color: rgb(0, 50, 78);
 }
-
-.card {
-    margin-bottom: 1.5em;
+ 
+.cardLista {
+     margin-bottom: 1.5em;
     box-shadow: 0 14px 20px 4px rgba(0, 0, 0, 0.85);
+} 
+
+.cardAnimal {
+      margin-top: 10px;
+    box-shadow: 0 14px 20px 4px rgba(0, 0, 0, 0.45);
 }
 
 .card .card-body {
-    background-color: rgb(240, 251, 255);
+      background-color: rgb(240, 251, 255);
     background-image: url("assets/Logo-02.png");
     background-repeat: no-repeat;
     background-size: auto;
+    background-position: right;
+}
+
+.imagen {
+    background-repeat: no-repeat;
+    background-size: inherit;
     background-position: center;
+    width: auto;
+    height: auto;
+    opacity: 0.3;
 }
 
 .menuHorizontal ul {
@@ -99,37 +113,8 @@ body p {
 .serchVerticalR {
     border-left: 2px solid #b3d7ff;
     background-color: #343a40!important;
+    position: relative;
 }
-
-.contFicha {
-    background-image: url("assets/cat-1045782_1920.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.contFicha img {
-    opacity: 0.5;
-    filter: alpha(opacity=50);
-}
-
-
-/* .colCarrusel {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: center, center;
-    background-repeat: no-repeat;
-    margin: 25px;
-}
-
-.conCarrusel {
-    margin-top: 50px;
-}
-
-.colIzq {
-    margin-right: 40px;
-} */
 
 .logo {
     text-align: center;
