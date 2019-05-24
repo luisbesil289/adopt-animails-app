@@ -50,7 +50,8 @@ body p {
 
 .cardAnimal {
       margin-top: 10px;
-    box-shadow: 0 14px 20px 4px rgba(0, 0, 0, 0.45);
+      box-shadow: rgba(0, 0, 0, 0.45);
+    /* box-shadow: 0 14px 20px 4px rgba(0, 0, 0, 0.45); */
 }
 
 .card .card-body {
@@ -63,10 +64,10 @@ body p {
 
 .imagen {
     background-repeat: no-repeat;
-    background-size: inherit;
+    
     background-position: center;
-    width: auto;
-    height: auto;
+    width: 500px;
+    
     opacity: 0.3;
 }
 

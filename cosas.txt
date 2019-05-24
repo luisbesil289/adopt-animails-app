@@ -26,3 +26,6 @@ https://www.semrush.com/blog/semantic-html5-guide/
 
 www.caniuse.com para saber si alguna propiedad no es soportada por algun navegador
 
+merge a master
+crear release
+pasar la url por mail  evaluaciones@senpaiacademy.com
