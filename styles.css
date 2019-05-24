@@ -49,9 +49,10 @@ body p {
 }
 
 .cardAnimal {
-    margin-top: 10px;
-    /* box-shadow: rgba(0, 0, 0, 0.45); */
-    box-shadow: 0 14px 20px 4px rgba(0, 0, 0, 0.45);
+    margin-bottom: 140px;
+    width: auto;
+    margin: auto auto;
+    box-shadow: 0 14px 20px 4px rgba(0, 0, 0, 0.1);
 }
 
 .card .card-body {
@@ -62,14 +63,19 @@ body p {
     background-position: right;
 }
 
-.imagen {
+.imagen {    
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
     opacity: 0.2;
-    width: 200px;
+    width: 100%;
+    z-index: 1;
 }
 
+.miniaturas{
+ 
+    margin-top: 20px;
+}    
 .menuHorizontal ul {
     list-style-type: none;
     margin: 0;
@@ -140,7 +146,6 @@ footer {
     background-color: #fff;
     border-top: 1px solid #ededed;
     padding: 50px;
-
     position: relative;
     color: #484848;
     text-align: center;
