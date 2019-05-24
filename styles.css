@@ -140,7 +140,7 @@ footer {
     background-color: #fff;
     border-top: 1px solid #ededed;
     padding: 50px;
-    z-index: 2;
+
     position: relative;
     color: #484848;
     text-align: center;
@@ -150,7 +150,6 @@ footer p {
     background-color: #fff;
     border-top: 1px solid #ededed;
     padding: 10px;
-    z-index: 2;
     position: relative;
     color: #484848;
     text-align: center;
