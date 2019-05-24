@@ -2,16 +2,19 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
+    <title>blog</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
+<style>
+
+</style>
 
 <body>
     <!-- Optional JavaScript -->
@@ -27,49 +30,140 @@
         crossorigin="anonymous"></script>
 
 
-    <!-- HEADER -->
-    <div class="header">
-        <!-- NAVBAR -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">Patitas</a>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="list.html">Catálogo</a>
-                            <a class="dropdown-item" href="ficha.html">Ficha</a>
-                            <a class="dropdown-item" href="newAnimal.html">Registro</a>
-                    </li>
 
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-                <button class="LogIn btn btn-outline-primary btn-sm my-2 my-sm-0 margin-left" type="submit">LogIn -
-                    Register</button>
-            </div>
-        </nav>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand" href="list.html"><img src="assets/Logo-02.png" alt="Smiley face" height="53"
+                width="70"></span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="menuHorizontal collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="list.html">Inicio <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="newAnimal.html">Nuevo <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="blog.html">Blog <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="whishlist.html">Lista de deseos <span class="sr-only"></span></a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+            </form>
+
+            <button class="LogIn btn btn-outline-light" type="submit"> LogIn -
+                Register
+            </button>
+        </div>
+    </nav>
+
+    <div class="logo">
+        <img src="assets/Patitas-01.jpg" class="img-responsive" alt="" title="">
+
+    </div>
+    <hr />
+
+    <div class="titulo">
+        <blockquote class="blockquote text-center">
+            <p class="mb-0">
+                <h2 class="txt m-txt_tight m-txt_colorPrimary">Blog</h2>
+            </p>
+        </blockquote>
     </div>
 
 
+    <div class="container">
+        <div class="row">
+            <div class="col col-12 col-md-9">
+                <div class="row">
+                    <div class="col col-12 col-md-4">
+                        <a href="blog.html" title="Gracias" id="featured-thumbnail">
+                            <div class="featured-thumbnail"><img src="assets/gatos_familia_01.jpg" class="img-fluid"
+                                    alt="asdfd" title="asdfasdf">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col col-12 col-md-8">
+                        <h5 class="card-title">Hermosos gatitos</h5>
+                        <p class="card-text"><small class="text-muted">FAMILIA RODRIGUEZ | Última actualización 3
+                                semanas</small></p>
+                        <hr />
+                        <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the
+                            majority have suffered alteration in some form, by injected humour, or randomised words
+                            which don't look even slightly believable.</p>
+                    </div>
+                </div>
 
-    <footer>
-        <p>Posted by: Luis Besil</p>
-        <p>Contact information: <a href="mailto:l.besil@gmail.com">
-                l.besil@gmail.com</a></p>
+                <hr />
+
+                <div class="row">
+                    <div class="col col-12 col-md-4">
+                        <a href="blog.html" title="Gracias" id="featured-thumbnail">
+                            <div class="featured-thumbnail"><img src="assets/gatos_familia_01.jpg" class="img-fluid"
+                                    alt="asdfd" title="asdfasdf">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col col-12 col-md-8">
+                        <h5 class="card-title">Mis mejores amigos</h5>
+                        <p class="card-text"><small class="text-muted">FAMILIA RODRIGUEZ | Última actualización 3
+                                semanas</small></p>
+                        <hr />
+                        <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the
+                            majority have suffered alteration in some form, by injected humour, or randomised words
+                            which don't look even slightly believable.</p>
+                    </div>
+                </div>
+                <hr />
+
+            </div>
+            <div class="col col-12 col-md-3">
+                <h5 class="card-title">Archivo</h5>
+                <ul class="list-group list-group-item-info">
+                    <hr />
+                    <h2 class="card-title">2019</h2>
+                    <hr />
+                    <li class="list-group-item">
+                        <h6>Cras justo odio</h6>
+                    </li>
+                    <li class="list-group-item">Cras justo odio</li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Morbi leo risus</li>
+                    <li class="list-group-item">Porta ac consectetur ac</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                    <hr />
+                    <h2 class="card-title">2018</h2>
+                    <hr />
+                    <li class="list-group-item">
+                        <h6>Cras justo odio</h6>
+                    </li>
+                    <li class="list-group-item">Morbi leo risus</li>
+                    <li class="list-group-item">Porta ac consectetur ac</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!--FOOTER-->
+    <hr />
+    <blockquote class="blockquote"></blockquote>
+    <footer class="blockquote-footer text-center">
+        <div class=footer>
+            <p>Posted by: Luis Besil</p>
+            <p>Contact information: <a href="mailto:l.besil@gmail.com">l.besil@gmail.com</a></p>
     </footer>
+    </blockquote>
+
 
 </body>
 

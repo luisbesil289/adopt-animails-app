@@ -1,170 +1,212 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="Es">
 
 <head>
-    <!-- Required meta tags -->
+    <title>testing</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <title>index.html</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 
-
 <body>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
 
-
+    <header></header>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="catalogo.html">Patitas</a>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand" href="list.html"><img src="assets/Logo-02.png" alt="Smiley face" height="53" width="70"></span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="menuHorizontal collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="catalogo.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="list.html">Inicio <span class="sr-only"></span></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="newAnimal.html">Nuevo <span class="sr-only"></span></a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="list.html">Catálogo</a>
-                        <a class="dropdown-item" href="ficha.html">Ficha</a>
-                        <a class="dropdown-item" href="newAnimal.html">Registro</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="blog.html">Blog <span class="sr-only"></span></a>
                 </li>
-
+                <li class="nav-item active">
+                    <a class="nav-link" href="whishlist.html">Lista de deseos <span class="sr-only"></span></a>
+                </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
-            <button class="LogIn btn btn-outline-primary btn-sm my-2 my-sm-0 margin-left" type="submit">LogIn -
-                Register</button>
+
+            <button class="LogIn btn btn-outline-light" type="submit"> LogIn -
+                Register
+            </button>
         </div>
     </nav>
 
-    <div class="jumbotron">
-        <div class="container text-Left">
-            <p class="h1 text-primary">
-                I am looking for friend!</p>
-            <p class="h6">This is a template for a simple marketing or informational website. This is a template for a
-                simple marketing or informational website. This is a template for a simple marketing or informational
-                wplate for a simple marketing or informational
-                website. This is a template for a simple marketing or informational website. This is a template for a
-                simple marketing or informational website. This is a template for a simple marketing or informational
-                website. This is a template for a simple marketing or informational website. This is a template for a
-                simple marketing or informational website. </p>
-            <button type="button" class="btn btn-primary">Learn more >></button>
-
-        </div>
+    <div class="logo">
+        <img src="assets/Patitas-01.jpg" class="img-responsive" alt="Logo Patitas" title="Patitas">
     </div>
 
-    <div class="tier">
-        <h2 class="txt txt_h1 m-txt_tight m-txt_colorPrimary m-txt_alignCenter">
-            Pets Available for Adoption
-        </h2>
+    <main>
+        <section>
+            <div class="container-fluid">
+                <div class="rowPrincipal row">
+                    <div class="serchVerticalL col col-2 d-none d-md-block">
+                        <form class="form" action="">
+                            <p>
+                                <h4>Filtros</h4>
+                            </p>
+                            <hr />
+                            <div class="form-group">
+                                <label for="tipo">
+                                    <p>
+                                        <h6>Tipo</h6>
+                                    </p>
+                                </label>
+                                <select class="custom-select custom-select-md">
+                                    <option selected></option>
+                                    <option value="1">Perro</option>
+                                    <option value="2">Gato</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="nombre">Nombre</label>
+                                <input type="nombre" class="form-control" id="nombre">
+                            </div>
 
-        <p class="txt m-txt_bold m-txt_colorPrimaryS1 m-txt_alignCenter u-vr4x"></p>
-    </div>
+                            <div class="form-group">
+                                <label for="barrio">Barrio</label>
+                                <input type="barrio" class="form-control" id="barrio">
+                            </div>
+                            <div class="form-group">
+                                <label for="raza">Raza</label>
+                                <input type="raza" class="form-control" id="raza">
+                            </div>
+                            <div class="form-group">
+                                <label for="sexo">Sexo</label>
+                                <select class="custom-select custom-select-md">
+                                    <option selected></option>
+                                    <option value="1">Macho</option>
+                                    <option value="2">hembra</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="edad">Edad</label>
+                                <input type="edad" class="form-control" id="edad">
+                            </div>
+                            <div class="form-group">
+                                <label for="pelo">Color de pelo</label>
+                                <input type="pelo" class="form-control" id="pelo">
+                            </div>
+                            <div class="form-group">
+                                <label for="ojos">Color de ojos</label>
+                                <input type="ojos" class="form-control" id="ojos">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-8">
+                        <div class="row">
+                            <div class="col col-12 col-sm-12 col-md-6 col-lg-4">
+                                <div class="card cardLista">
+                                    <img src="assets/dog_10.jpg" class="card-img-top" alt="... ">
+                                    <div class="card-body ">
+                                        <h5 class="card-title">Max</h5>
+                                        <p class="card-text">
+                                            Some quicktitle and make up the bulk of the card's content.
+                                        </p>
+                                        <a href="animal.html" class="btn btn-primary btn-block">Ver</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-12 col-md-6 col-lg-4">
+                                <div class="card cardLista">
+                                    <img src="assets/dog_06.jpg" class="card-img-top" alt="... ">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Dante</h5>
+                                        <p class="card-text">
+                                            Some quick example tdfdfg dfg dfgdfg dfgfd gext to build on the card title and make up the bulk of the card's content.
+                                        </p>
+                                        <a href="animal.html" class="btn btn-primary btn-block">Ver</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-12 col-md-6 col-lg-4">
+                                <div class="card cardLista">
+                                    <img src="assets/dog_07.jpg" class="card-img-top" alt="... ">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Clarita</h5>
+                                        <p class="card-text">
+                                            Some quick example tdfdfg dfg dfgdfg dfgfd gext ter wefwef wefew wf we f ewf wef wef ew fe fo build on the card title and make up the bulk of the card's content.
+                                        </p>
+                                        <a href="animal.html" class="btn btn-primary btn-block">Ver</a>
+                                    </div>
+                                </div>
+                            </div>
 
+                            <div class="col col-12 col-md-6 col-lg-4">
+                                <div class="card cardLista">
+                                    <img src="assets/dog_11.jpg" class="card-img-top" alt="... ">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Rosita</h5>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci incidunt veniam quibusdam corporis fugit nulla doloribus dolore dolores, ab odit? Quas vitae repellendus reprehenderit, alias maiores numquam tenetur quos debitis facilis blanditiis accusantium
+                                            eligendi quasi rerum perspiciatis dolorem, ut natus earum fuga velit, ullam consequatur quam. Officiis quidem cupiditate ipsum!
+                                        </p>
+                                        <a href="animal.html" class="btn btn-primary btn-block">Ver</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-12 col-md-6 col-lg-4">
+                                <div class="card cardLista">
+                                    <img src="assets/dog_08.jpg" class="card-img-top" alt="... ">
+                                    <div class="card-body ">
+                                        <h5 class="card-title ">Catalina</h5>
+                                        <p class="card-text ">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi maiores pariatur, praesentium dolorem accusantium culpa a reprehenderit libero eius in, ab perspiciatis non consequuntur fugiat quam provident earum magni optio quia ipsam qui porro, totam
+                                            repudiandae quis necessitatibus nobis? Totam, maiores nihil eveniet tenetur earum, modi officiis dicta perferendis dolore incidunt officia aut.
+                                        </p>
+                                        <a href="animal.html" class="btn btn-primary btn-block ">Ver</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-12 col-md-6 col-lg-4">
+                                <div class="card cardLista">
+                                    <img src="assets/dog_09.jpg" class="card-img-top" alt="... ">
+                                    <div class="card-body">
+                                        <h5 class="card-title ">Juan Carlos</h5>
+                                        <p class="card-text">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus amet harum vero nulla quibusdam alias dolorum ipsum possimus tempora repudiandae veritatis hic dolorem nemo odio, repellat quo tempore dignissimos animi.
+                                        </p>
+                                        <a href="animal.html" class="btn btn-primary btn-block">Ver</a>
+                                    </div>
+                                </div>
+                            </div>
 
-    <div class="container">
-        <div class="row justify-content-md-center">
-            <div class="col-sm-3 m-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/dog_02.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
                     </div>
+                    <aside class="serchVerticalR col col-12 col-sm-6 col-md-2 col-lg-2">
+                        <hr />
+                        <a href="https://freshpet.com/" target="_blank"><img src="assets/publicidad_01.jpg" class="card-img-top" alt="... "></a>
+                        <hr />
+                        <a href="https://freshpet.com/" target="_blank"><img src="assets/publicidad_02.jpg" class="card-img-top" alt="... "></a>
+                        <hr />
+                    </aside>
                 </div>
             </div>
-            <div class="col-sm-3 m-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/dog_02.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-3 m-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/dog_02.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-3 m-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/dog_01.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-3 m-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/dog_01.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-3 m-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/dog_01.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+        </section>
+    </main>
+    <!-- fin Main -->
 
+    <!-- footer -->
     <footer>
-        <div class=footer>
-            <p>Posted by: Luis Besil</p>
-            <p>Contact information: <a href="mailto:l.besil@gmail.com">
-                    l.besil@gmail.com</a></p>
+        <p class="copyright">Copyright © 2019 <a href="mailto:l.besil@gmail.com" target="_blank">Luis Besil</a>.
+            <span class="second-line">All Rights Reserved.</span>
+        </p>
     </footer>
-    </div>
-
 </body>
 
 </html>

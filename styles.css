@@ -1,17 +1,163 @@
-.LogIn{
-    margin-left: 10px;
+body {
+    background-image: url("assets/Logo-02.png");
+    font-family: "futura_icgregular";
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
 }
 
-/* cambiar tipo de letra */
-nav.navbar ul.nav li {
+h1 {
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(0, 111, 175);
+}
+
+h1 {
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(0, 111, 175);
+}
+
+h3 {
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(0, 111, 175);
+}
+
+h4 {
+    text-align: center;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
- 
-/* cambiar el color de fondo a la barra */
-nav.navbar {
-    background-color: #CC1414;
+
+h5 {
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(0, 111, 175);
 }
 
-.jumbotron {
-    background-image: url("img/dog_05.jpg");
-    background-size: cover;}
+body p {
+    font-family: Vegur, 'PT Sans', Verdana, sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    text-indent: 10px;
+    line-height: 20px;
+    color: rgb(0, 50, 78);
+}
+ 
+.cardLista {
+     margin-bottom: 1.5em;
+    box-shadow: 0 14px 20px 4px rgba(0, 0, 0, 0.85);
+} 
+
+.cardAnimal {
+      margin-top: 10px;
+    box-shadow: 0 14px 20px 4px rgba(0, 0, 0, 0.45);
+}
+
+.card .card-body {
+      background-color: rgb(240, 251, 255);
+    background-image: url("assets/Logo-02.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right;
+}
+
+.imagen {
+    background-repeat: no-repeat;
+    background-size: inherit;
+    background-position: center;
+    width: auto;
+    height: auto;
+    opacity: 0.3;
+}
+
+.menuHorizontal ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #343a40;
+}
+
+.menuHorizontal li {
+    float: left;
+}
+
+.menuHorizontal li a {
+    background-color: b3d7ff;
+    border: none;
+    color: white;
+    padding: 1px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.7s;
+}
+
+.menuHorizontal li a:hover {
+    background-color: #b3d7ff;
+    color: black;
+}
+
+.rowPrincipal {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.serchVerticalL {
+    border-right: 2px solid #b3d7ff;
+    text-align: left;
+    background-color: #343a40!important;
+    color: white;
+}
+
+.serchVerticalR {
+    border-left: 2px solid #b3d7ff;
+    background-color: #343a40!important;
+    position: relative;
+}
+
+.logo {
+    text-align: center;
+    padding-top: 5px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.LogInn {
+    text-align: right;
+}
+
+.formNuevoAnimal {
+    box-shadow: 0 14px 20px 4px rgba(0, 0, 0, 0.85);
+}
+
+footer {
+    background-color: #fff;
+    border-top: 1px solid #ededed;
+    padding: 50px;
+    z-index: 2;
+    position: relative;
+    color: #484848;
+    text-align: center;
+}
+
+footer p {
+    background-color: #fff;
+    border-top: 1px solid #ededed;
+    padding: 10px;
+    z-index: 2;
+    position: relative;
+    color: #484848;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+footer .copyright {
+    opacity: .5;
+    line-height: 1.7;
+}
