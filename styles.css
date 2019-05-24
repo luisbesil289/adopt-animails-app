@@ -42,19 +42,20 @@ body p {
     line-height: 20px;
     color: rgb(0, 50, 78);
 }
- 
+
 .cardLista {
-     margin-bottom: 1.5em;
+    margin-bottom: 1.5em;
     box-shadow: 0 14px 20px 4px rgba(0, 0, 0, 0.85);
-} 
+}
 
 .cardAnimal {
-      margin-top: 10px;
+    margin-top: 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.45); */
     box-shadow: 0 14px 20px 4px rgba(0, 0, 0, 0.45);
 }
 
 .card .card-body {
-      background-color: rgb(240, 251, 255);
+    background-color: rgb(240, 251, 255);
     background-image: url("assets/Logo-02.png");
     background-repeat: no-repeat;
     background-size: auto;
@@ -63,11 +64,10 @@ body p {
 
 .imagen {
     background-repeat: no-repeat;
-    background-size: inherit;
     background-position: center;
-    width: auto;
-    height: auto;
-    opacity: 0.3;
+    position: absolute;
+    opacity: 0.2;
+    width: 200px;
 }
 
 .menuHorizontal ul {
@@ -140,7 +140,7 @@ footer {
     background-color: #fff;
     border-top: 1px solid #ededed;
     padding: 50px;
-    z-index: 2;
+
     position: relative;
     color: #484848;
     text-align: center;
@@ -150,7 +150,6 @@ footer p {
     background-color: #fff;
     border-top: 1px solid #ededed;
     padding: 10px;
-    z-index: 2;
     position: relative;
     color: #484848;
     text-align: center;
