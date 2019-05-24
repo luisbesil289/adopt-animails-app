@@ -29,3 +29,4 @@ www.caniuse.com para saber si alguna propiedad no es soportada por algun navegad
 merge a master
 crear release
 pasar la url por mail  evaluaciones@senpaiacademy.com
+<i class="fas fa-star-of-david    "></i>
