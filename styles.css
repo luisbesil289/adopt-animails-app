@@ -50,7 +50,6 @@ body p {
 
 .cardAnimal {
     margin-top: 10px;
-    /* box-shadow: rgba(0, 0, 0, 0.45); */
     box-shadow: 0 14px 20px 4px rgba(0, 0, 0, 0.45);
 }
 
@@ -61,6 +60,9 @@ body p {
     background-size: auto;
     background-position: right;
 }
+
+
+/* Imagen de fondo en card newAnimal */
 
 .imagen {
     background-repeat: no-repeat;
