@@ -111,8 +111,9 @@ body p {
     background-position: center;
     position: absolute;
     opacity: 0.2;
-    width: 100%;
+    /* width: 88%; */
     z-index: 1;
+    float: none;
 }
 
 .miniaturas {
