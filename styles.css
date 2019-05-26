@@ -5,18 +5,6 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-@media all and (max-width: 699px) and (min-width: 520px) {
-    body {
-        background-image: url("assets/gatos_familia_01.jpg");
-        font-family: "futura_icgregular";
-        text-rendering: optimizeLegibility;
-        -webkit-font-smoothing: antialiased;
-    }
-    .flotante {
-        display: none;
-    }
-}
-
 @media all and (max-width: 520px) {
     body {
         background-image: none;
@@ -33,6 +21,30 @@ body {
         top: 34px;
         left: 3%;
         margin-top: 10px;
+    }
+}
+
+@media all and (max-width: 699px) and (min-width: 520px) {
+    body {
+        background-image: url("assets/gatos_familia_01.jpg");
+        font-family: "futura_icgregular";
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+    }
+    .flotante {
+        display: none;
+    }
+}
+
+@media all and (min-width: 670px) {
+    body {
+        background-image: url("assets/gatos_familia_01.jpg");
+        font-family: "futura_icgregular";
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+    }
+    .flotante {
+        display: none;
     }
 }
 
