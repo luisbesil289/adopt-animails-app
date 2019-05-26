@@ -5,6 +5,36 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+@media all and (max-width: 699px) and (min-width: 520px) {
+    body {
+        background-image: url("assets/gatos_familia_01.jpg");
+        font-family: "futura_icgregular";
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+    }
+    .flotante {
+        display: none;
+    }
+}
+
+@media all and (max-width: 520px) {
+    body {
+        background-image: none;
+        background-color: white;
+        font-family: "futura_icgregular";
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+    }
+    /* va al inicio de la pantalla en Responsive menor de 520 */
+    .flotante {
+        width: 100%;
+        display: scroll;
+        position: relative;
+        top: 34px;
+        left: 80%;
+    }
+}
+
 h1 {
     text-align: center;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -49,8 +79,10 @@ body p {
 }
 
 .cardAnimal {
-    margin-top: 10px;
-    box-shadow: 0 14px 20px 4px rgba(0, 0, 0, 0.45);
+    margin-bottom: 140px;
+    width: auto;
+    margin: auto auto;
+    box-shadow: 0 14px 20px 4px rgba(0, 0, 0, 0.1);
 }
 
 .card .card-body {
@@ -61,15 +93,17 @@ body p {
     background-position: right;
 }
 
-
-/* Imagen de fondo en card newAnimal */
-
 .imagen {
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
     opacity: 0.2;
-    width: 200px;
+    width: 100%;
+    z-index: 1;
+}
+
+.miniaturas {
+    margin-top: 20px;
 }
 
 .menuHorizontal ul {
@@ -84,7 +118,6 @@ body p {
 }
 
 .menuHorizontal li a {
-    background-color: b3d7ff;
     border: none;
     color: white;
     padding: 1px 32px;
@@ -109,7 +142,7 @@ body p {
     border-right: 2px solid #b3d7ff;
     text-align: left;
     background-color: #343a40!important;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .serchVerticalR {
