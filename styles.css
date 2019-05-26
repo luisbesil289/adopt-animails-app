@@ -5,6 +5,36 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+@media all and (max-width: 699px) and (min-width: 520px) {
+    body {
+        background-image: url("assets/gatos_familia_01.jpg");
+        font-family: "futura_icgregular";
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+    }
+    .flotante {
+        display: none;
+    }
+}
+
+@media all and (max-width: 520px) {
+    body {
+        background-image: none;
+        background-color: white;
+        font-family: "futura_icgregular";
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+    }
+    /* va al inicio de la pantalla en Responsive menor de 520 */
+    .flotante {
+        width: 100%;
+        display: scroll;
+        position: relative;
+        top: 34px;
+        left: 80%;
+    }
+}
+
 h1 {
     text-align: center;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -63,7 +93,7 @@ body p {
     background-position: right;
 }
 
-.imagen {    
+.imagen {
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
@@ -72,10 +102,10 @@ body p {
     z-index: 1;
 }
 
-.miniaturas{
- 
+.miniaturas {
     margin-top: 20px;
-}    
+}
+
 .menuHorizontal ul {
     list-style-type: none;
     margin: 0;
@@ -88,7 +118,6 @@ body p {
 }
 
 .menuHorizontal li a {
-    background-color: b3d7ff;
     border: none;
     color: white;
     padding: 1px 32px;
@@ -113,7 +142,7 @@ body p {
     border-right: 2px solid #b3d7ff;
     text-align: left;
     background-color: #343a40!important;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .serchVerticalR {
