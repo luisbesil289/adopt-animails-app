@@ -1,8 +1,51 @@
 body {
     background-image: url("assets/Logo-02.png");
-    font-family: "futura_icgregular";
+    background-image: no-repeat;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
+}
+
+@media all and (max-width: 520px) {
+    body {
+        background-color: white;
+        font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+    }
+    /* arrow que va va al inicio de la pantalla, en Responsive menor de 520 */
+    .flotante {
+        width: 100%;
+        display: scroll;
+        position: relative;
+        top: 34px;
+        left: 3%;
+        margin-top: 10px;
+    }
+}
+
+@media all and (max-width: 699px) and (min-width: 520px) {
+    body {
+        background-image: url("assets/Logo-02.png");
+        font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+    }
+    .flotante {
+        display: none;
+    }
+}
+
+@media all and (min-width: 670px) {
+    body {
+        background-image: url("assets/Logo-02.png");
+        font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+    }
+    .flotante {
+        display: none;
+    }
 }
 
 h1 {
@@ -49,8 +92,9 @@ body p {
 }
 
 .cardAnimal {
-    margin-top: 10px;
-    /* box-shadow: rgba(0, 0, 0, 0.45); */
+    margin-bottom: 140px;
+    width: 100%;
+    margin: auto auto;
     box-shadow: 0 14px 20px 4px rgba(0, 0, 0, 0.45);
 }
 
@@ -67,7 +111,13 @@ body p {
     background-position: center;
     position: absolute;
     opacity: 0.2;
-    width: 200px;
+    width: 100%;
+    z-index: 1;
+    float: none;
+}
+
+.miniaturas {
+    margin-top: 20px;
 }
 
 .menuHorizontal ul {
@@ -82,7 +132,6 @@ body p {
 }
 
 .menuHorizontal li a {
-    background-color: b3d7ff;
     border: none;
     color: white;
     padding: 1px 32px;
@@ -107,7 +156,7 @@ body p {
     border-right: 2px solid #b3d7ff;
     text-align: left;
     background-color: #343a40!important;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .serchVerticalR {
@@ -140,7 +189,6 @@ footer {
     background-color: #fff;
     border-top: 1px solid #ededed;
     padding: 50px;
-
     position: relative;
     color: #484848;
     text-align: center;
