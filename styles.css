@@ -13,7 +13,7 @@ body {
         text-rendering: optimizeLegibility;
         -webkit-font-smoothing: antialiased;
     }
-    /* va al inicio de la pantalla en Responsive menor de 520 */
+    /* arrow que va va al inicio de la pantalla, en Responsive menor de 520 */
     .flotante {
         width: 100%;
         display: scroll;
