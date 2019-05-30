@@ -41,7 +41,7 @@ const calculateDiscount = (subTotal, cantidad) => {
             valor = calcularAhorro(subTotal, 15);
         } else if (cantidad > 4 & subTotal > 99) {
             valor = (subTotal * 10) / 100;
-        } else if (subTotal > 99) {            
+        } else if (subTotal > 99) {
             valor = (subTotal * 10) / 100;
         } else {
             valor = calcularAhorro(subTotal, 5);
@@ -57,6 +57,7 @@ const calcularTotal = (subtotal, descuento) => {
 }
 
 
+
 const drawTotals = () => {
     const subTotal = calculateSubTotal();
     const discount = calculateDiscount(subTotal);
@@ -66,3 +67,4 @@ const drawTotals = () => {
     document.querySelector('.totals .taxes').textContent = TAXES;
     // and finally draw total.
 }
+
