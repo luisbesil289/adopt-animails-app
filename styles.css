@@ -1,3 +1,12 @@
+figure {
+    float: right;
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+    margin: 20%;
+    padding: 0.2em;
+}
+
 body {
     background-image: url("assets/Logo-02.png");
     background-image: no-repeat;
@@ -131,7 +140,7 @@ body p {
     float: left;
 }
 
-.menuHorizontal li a {
+.menuHorizontal li .trans {
     border: none;
     color: white;
     padding: 1px 32px;
@@ -141,7 +150,7 @@ body p {
     transition: 0.7s;
 }
 
-.menuHorizontal li a:hover {
+.menuHorizontal li .trans:hover {
     background-color: #b3d7ff;
     color: black;
 }
@@ -188,7 +197,6 @@ body p {
 footer {
     background-color: #fff;
     border-top: 1px solid #ededed;
-    padding: 50px;
     position: relative;
     color: #484848;
     text-align: center;
@@ -202,6 +210,17 @@ footer p {
     color: #484848;
     text-align: center;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#cacho {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+
+footer li {
+    float: left;
+
 }
 
 footer .copyright {
