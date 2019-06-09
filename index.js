@@ -1,6 +1,8 @@
 const whish = "animal.html";
 let anis = [];
 
+const wishi = [];
+
 const animales = [{
         foto: "assets/cat_01.jpg",
         tipo: "cat",
@@ -256,6 +258,26 @@ const drawAnimales = () => {
         cardImagen.className = "card-img-top";
         cardImagen.src = animal.foto;
         cardBody.appendChild(cardImagen);
+
+
+
+        const cardButtonimg = document.createElement("a");
+        cardButtonimg.className = "btn btn-primary btn-block";
+        cardButtonimg.setAttribute('href', whish);
+        cardBody.appendChild(cardButtonimg);
+
+
+
+        const cardWish = document.createElement("img");
+        cardWish.className = "wish";
+        cardWish.src = "assets/heart.png";
+        $(cardWish).on('click', () => {
+            wishi.push(animal);
+            alert("clicky");
+        });
+        cardButtonimg.appendChild(cardWish);
+
+
 
         const cardTitle = document.createElement("h5");
         cardTitle.className = "card-title";
