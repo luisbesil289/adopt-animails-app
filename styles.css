@@ -168,6 +168,11 @@ body p {
     color: rgb(255, 255, 255);
 }
 
+#filtro {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
 .serchVerticalR {
     border-left: 2px solid #b3d7ff;
     background-color: #343a40!important;
@@ -220,7 +225,6 @@ footer p {
 
 footer li {
     float: left;
-
 }
 
 footer .copyright {

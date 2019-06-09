@@ -8,8 +8,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="index.js">
-    <link rel="stylesheet" href="datos.js">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 </head>
 
 <body>
@@ -72,163 +72,39 @@
     </nav>
 
     <div class="logo ">
-        <img src="assets/Patitas-01.jpg " class="img-responsive " alt="Logo Patitas " title="Patitas ">
+        <img src="assets/Patitas-01.jpg" class="img-responsive " alt="Logo Patitas " title="Patitas ">
     </div>
-
     <main>
         <section>
             <div class="container-fluid ">
-                <div class="rowPrincipal row ">
-                    <div class="serchVerticalL col col-2 d-none d-md-block ">
-                        <form class="form " action=" ">
-                            <p>
-                                <h4>Filtros</h4>
-                            </p>
-                            <hr />
-                            <div class="form-group ">
-                                <label for="tipo ">
-                                    <p>
-                                        <h6>Tipo</h6>
-                                    </p>
-                                </label>
-                                <select class="custom-select custom-select-md ">
-                                    <option selected></option>
-                                    <option value="1 ">Perro</option>
-                                    <option value="2 ">Gato</option>
-                                </select>
-                            </div>
-                            <div class="form-group ">
-                                <label for="nombre ">Nombre</label>
-                                <input type="nombre " class="form-control " id="nombre ">
-                            </div>
-
-                            <div class="form-group ">
-                                <label for="barrio ">Barrio</label>
-                                <input type="barrio " class="form-control " id="barrio ">
-                            </div>
-                            <div class="form-group ">
-                                <label for="raza ">Raza</label>
-                                <input type="raza " class="form-control " id="raza ">
-                            </div>
-                            <div class="form-group ">
-                                <label for="sexo ">Sexo</label>
-                                <select class="custom-select custom-select-md ">
-                                    <option selected></option>
-                                    <option value="1 ">Macho</option>
-                                    <option value="2 ">hembra</option>
-                                </select>
-                            </div>
-                            <div class="form-group ">
-                                <label for="edad ">Edad</label>
-                                <input type="edad " class="form-control " id="edad ">
-                            </div>
-                            <div class="form-group ">
-                                <label for="pelo ">Color de pelo</label>
-                                <input type="pelo " class="form-control " id="pelo ">
-                            </div>
-                            <div class="form-group ">
-                                <label for="ojos ">Color de ojos</label>
-                                <input type="ojos " class="form-control " id="ojos ">
-                            </div>
-                        </form>
-                    </div>
-                    <div class="col col-12 col-sm-8 col-md-8 ">
-                        <div class="row ">
-                            <div class="col col-12 col-sm-12 col-md-6 col-lg-4 ">
-                                <div class="card cardLista" id="animalList">
-                                    <img src="assets/dog_10.jpg" class="card-img-top " alt="... ">
-                                    <div class="card-body ">
-                                        <h5 class="card-title ">Max</h5>
-                                        <p class="card-text ">
-                                            Some quicktitle and make up the bulk of the card's content.
-                                        </p>
-                                        <a href="animal.html " class="btn btn-primary btn-block ">Ver</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col col-12 col-md-6 col-lg-4 ">
-                                <div class="card cardLista ">
-                                    <img src="assets/dog_06.jpg" class="card-img-top " alt="... ">
-                                    <div class="card-body ">
-                                        <h5 class="card-title ">Dante</h5>
-                                        <p class="card-text ">
-                                            Some quick example tdfdfg dfg dfgdfg dfgfd gext to build on the card title and make up the bulk of the card's content.
-                                        </p>
-                                        <a href="animal.html " class="btn btn-primary btn-block ">Ver</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col col-12 col-md-6 col-lg-4 ">
-                                <div class="card cardLista ">
-                                    <img src="assets/dog_07.jpg " class="card-img-top " alt="... ">
-                                    <div class="card-body ">
-                                        <h5 class="card-title ">Clarita</h5>
-                                        <p class="card-text ">
-                                            Some quick example tdfdfg dfg dfgdfg dfgfd gext ter wefwef wefew wf we f ewf wef wef ew fe fo build on the card title and make up the bulk of the card's content.
-                                        </p>
-                                        <a href="animal.html " class="btn btn-primary btn-block ">Ver</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col col-12 col-md-6 col-lg-4 ">
-                                <div class="card cardLista ">
-                                    <img src="assets/dog_11.jpg " class="card-img-top " alt="... ">
-                                    <div class="card-body ">
-                                        <h5 class="card-title ">Rosita</h5>
-                                        <p class="card-text ">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci incidunt veniam quibusdam corporis fugit nulla doloribus dolore dolores, ab odit? Quas vitae repellendus reprehenderit, alias maiores numquam tenetur quos debitis facilis blanditiis accusantium
-                                            eligendi quasi rerum perspiciatis dolorem, ut natus earum fuga velit, ullam consequatur quam. Officiis quidem cupiditate ipsum!
-                                        </p>
-                                        <a href="animal.html " class="btn btn-primary btn-block ">Ver</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col col-12 col-md-6 col-lg-4 ">
-                                <div class="card cardLista ">
-                                    <img src="assets/dog_08.jpg " class="card-img-top " alt="... ">
-                                    <div class="card-body ">
-                                        <h5 class="card-title ">Catalina</h5>
-                                        <p class="card-text ">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi maiores pariatur, praesentium dolorem accusantium culpa a reprehenderit libero eius in, ab perspiciatis non consequuntur fugiat quam provident earum magni optio quia ipsam qui porro, totam
-                                            repudiandae quis necessitatibus nobis? Totam, maiores nihil eveniet tenetur earum, modi officiis dicta perferendis dolore incidunt officia aut.
-                                        </p>
-                                        <a href="animal.html " class="btn btn-primary btn-block ">Ver</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col col-12 col-md-6 col-lg-4 ">
-                                <div class="card cardLista ">
-                                    <img src="assets/dog_09.jpg " class="card-img-top " alt="... ">
-                                    <div class="card-body ">
-                                        <h5 class="card-title ">Juan Carlos</h5>
-                                        <p class="card-text ">
-                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus amet harum vero nulla quibusdam alias dolorum ipsum possimus tempora repudiandae veritatis hic dolorem nemo odio, repellat quo tempore dignissimos animi.
-                                        </p>
-                                        <a href="animal.html " class="btn btn-primary btn-block ">Ver</a>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
+                <div class="rowPrincipal row">
+                    <div class="serchVerticalL col col-2 d-none d-md-block">
+                        <div class="form" id="filtro">
                         </div>
                     </div>
+                    <div class="col col-12 col-sm-8 col-md-8">
+                        <div class="row" id="animal-list">
+                            <div class="col col-12 col-md-6 col-lg-4">
+                                <div class="card cardLista">
+                                    <div class="card-body">
+                                        <img src="assets/dog_10.jpg" class="card-img-top" alt="... ">
+
+                                        <h5 class="card-title">Maxi</h5>
+                                        <p class="card-text">
+                                            Some quicktitle and make up the bulk of the card's content.
+                                        </p>
+                                        <a href="animal.html" class="btn btn-primary btn-block">Ver</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <aside class="serchVerticalR col col-12 col-sm-4 col-md-2 col-lg-2 ">
                         <hr />
-                        <a href="https://freshpet.com/ " target="_blank "><img src="assets/publicidad_01.jpg " class="card-img-top " alt="... "></a>
+                        <a href="https://freshpet.com/ " target="_blank "><img src="assets/publicidad_01.jpg" class="card-img-top " alt="... "></a>
                         <hr />
-                        <a href="https://freshpet.com/ " target="_blank "><img src="assets/publicidad_02.jpg " class="card-img-top " alt="... "></a>
+                        <a href="https://freshpet.com/ " target="_blank "><img src="assets/publicidad_02.jpg" class="card-img-top " alt="... "></a>
                         <hr />
                     </aside>
                 </div>
@@ -282,5 +158,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
 
 </body>
+
+<script src="index.js"></script>
 
 </html>
