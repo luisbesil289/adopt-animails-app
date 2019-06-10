@@ -1,4 +1,6 @@
-const whish = "whishlist.html";
+const pageWishlist = "wishlist.html";
+const pageAnimal = "animal.html";
+
 let anis = [];
 
 const wishi = [];
@@ -275,27 +277,22 @@ const drawAnimales = () => {
         cardBody.className = "card-body";
         cardLista.appendChild(cardBody);
 
-        const cardImagen = document.createElement("img");
-        cardImagen.className = "card-img-top";
-        cardImagen.src = animal.foto;
-        cardBody.appendChild(cardImagen);
-
-
-
         const cardButtonimg = document.createElement("a");
         cardButtonimg.className = "";
-        cardButtonimg.setAttribute('href', whish);
+        cardButtonimg.setAttribute('href', pageWishlist);
         cardBody.appendChild(cardButtonimg);
-
-
-
         const cardWish = document.createElement("img");
         cardWish.className = "wish btn-block";
         cardWish.src = "assets/heart.png";
         $(cardWish).on('click', () => {
             wishi.push(animal);
         });
-        cardButtonimg.appendChild(cardWish);
+        cardButtonimg.appendChild(cardWish);        
+
+        const cardImagen = document.createElement("img");
+        cardImagen.className = "card-img-top";
+        cardImagen.src = animal.foto;
+        cardBody.appendChild(cardImagen);        
 
         const cardTitle = document.createElement("h5");
         cardTitle.className = "card-title";
@@ -310,7 +307,7 @@ const drawAnimales = () => {
         const cardButton = document.createElement("a");
         cardButton.className = "btn btn-primary btn-block";
         cardButton.innerText = "Adoptar";
-        cardButton.setAttribute('href', whish);
+        cardButton.setAttribute('href', pageAnimal);
         cardBody.appendChild(cardButton);
 
     });

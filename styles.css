@@ -34,8 +34,8 @@ body {
     .wish {
         margin-right: 15%;
         position: absolute;
-        top: 4%;
-        left: 87%;
+        top: 3%;
+        left: 88%;
         background-color: rgb(240, 251, 255);
         background-repeat: no-repeat;
         background-position: right;
@@ -43,7 +43,7 @@ body {
     }
 }
 
-@media all and (max-width: 699px) and (min-width: 520px) {
+@media all and (max-width: 669px) and (min-width: 520px) {
     body {
         background-image: url("assets/Logo-02.png");
         font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
@@ -56,12 +56,12 @@ body {
     .wish {
         margin-right: 15%;
         position: absolute;
-        top: 5%;
-        left: 83%;
+        top: 3%;
+        left: 88%;
         background-color: rgb(240, 251, 255);
         background-repeat: no-repeat;
         background-position: right;
-        width: 25px;
+        width: 40px;
     }
 }
 
@@ -77,9 +77,9 @@ body {
     }
     .wish {
         margin-right: 15%;
-        position: absolute;
-        top: 5%;
-        left: 83%;
+        position: relative;
+        padding-bottom: 2px;
+        left: 92%;
         background-color: rgb(240, 251, 255);
         background-repeat: no-repeat;
         background-position: right;
