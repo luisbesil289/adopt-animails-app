@@ -93,13 +93,38 @@ const animales = [{
         ojos: "Celestes",
         descripcion: "Sasfo asdfsd wrgwer afme quicktitle and make up the bulk of the card's content.",
         contacto: "Juan Carlos - 095 342 666 - ahi@aca.com"
+    },
+    {
+        foto: "assets/dog_06.jpg",
+        tipo: "dog",
+        nombre: "Perrote",
+        barrio: "Pocitos",
+        raza: "Caniche",
+        sexo: "H",
+        edad: "2",
+        pelo: "Blanco",
+        ojos: "Celestes",
+        descripcion: "Sasfo asdfsd wrgwer afme quicktitle and make up the bulk of the card's content.",
+        contacto: "Juan Carlos - 095 342 666 - ahi@aca.com"
+    },
+    {
+        foto: "assets/cat_03.jpg",
+        tipo: "cat",
+        nombre: "Gatuno",
+        barrio: "Ciudad Vieja",
+        raza: "Caniche",
+        sexo: "M",
+        edad: "2",
+        pelo: "Blanco",
+        ojos: "Celestes",
+        descripcion: "Sasfo asdfsd wrgwer afme quicktitle and make up the bulk of the card's content.",
+        contacto: "Juan Carlos - 095 342 666 - ahi@aca.com"
     }
 ];
 
 const drawFiltros = () => {
 
     $(document).ready(() => {
-
 
         const filtro = document.querySelector('#filtro');
 
@@ -118,6 +143,7 @@ const drawFiltros = () => {
         const selectTipo = document.createElement("select");
         selectTipo.className = "custom-select custom-select-md";
         selectTipo.id = "tipo";
+        selectTipo.append(new Option("", ""));
         selectTipo.append(new Option("Perros", "dog"));
         selectTipo.append(new Option("Gatos", "cat"));
         filtro.appendChild(selectTipo);
@@ -125,11 +151,10 @@ const drawFiltros = () => {
         $(selectTipo).change(function() {
             $("#animal-list").empty();
             if ($("#tipo option:selected").val() != "") {
-                anis = animales.filter(animal => animal.tipo == $("#tipo option:selected").val());
+                anis = animales.filter(animal => animal.tipo == $("#tipo option:selected").val() || animal.nombre == $('#nombre').val());
                 drawAnimales();
-            } else {
-                anis = animales;
-            };
+            }
+
         })
 
         filtro.appendChild(document.createElement("br"));
@@ -145,18 +170,14 @@ const drawFiltros = () => {
         fNombre.id = "nombre";
         filtro.appendChild(fNombre);
 
-        $(fNombre).keydown(() => {
+        $(fNombre).keyup(() => {
             $("#animal-list").empty();
-            console.log("Tecla presionada: " + $('#nombre').val());
 
-            console.log($('#nombre').val() == "");
-            if ($('#nombre').val() == "") {
-                anis = animales.filter(animal => animal.nombre <= $('#nombre').val());
-                /*  drawAnimales(); */
-            } else {
-                anis = animales;
-            };
-            drawAnimales();
+            if ($('#nombre').val() != "") {
+                anis = animales.filter(animal => animal.tipo == $("#tipo option:selected").val() || animal.nombre == $('#nombre').val());
+                drawAnimales();
+            }
+
 
         });
         filtro.appendChild(document.createElement("br"));
@@ -262,22 +283,19 @@ const drawAnimales = () => {
 
 
         const cardButtonimg = document.createElement("a");
-        cardButtonimg.className = "btn btn-primary btn-block";
+        cardButtonimg.className = "";
         cardButtonimg.setAttribute('href', whish);
         cardBody.appendChild(cardButtonimg);
 
 
 
         const cardWish = document.createElement("img");
-        cardWish.className = "wish";
+        cardWish.className = "wish btn-block";
         cardWish.src = "assets/heart.png";
         $(cardWish).on('click', () => {
             wishi.push(animal);
-            alert("clicky");
         });
         cardButtonimg.appendChild(cardWish);
-
-
 
         const cardTitle = document.createElement("h5");
         cardTitle.className = "card-title";
@@ -296,7 +314,7 @@ const drawAnimales = () => {
         cardBody.appendChild(cardButton);
 
     });
-
+    anis = animales;
 }
 
 
@@ -304,7 +322,9 @@ const drawAnimales = () => {
 const start = () => {
     /* drawPerros();
     drawGatos(); */
+    anis = animales;
     drawFiltros();
+    drawAnimales();
 }
 
 start();
