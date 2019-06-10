@@ -168,10 +168,14 @@ body p {
     box-shadow: 0 14px 20px 4px rgba(0, 0, 0, 0.45);
 }
 
-.card-title{
+.card-titleWish{
     margin-bottom: 140px;
     width: 100%;
     margin: auto auto;
+    margin:10px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-size: 24px;
+    font-weight: bold;
     
 }
 
@@ -282,6 +286,13 @@ body p {
 
 .formNuevoAnimal {
     box-shadow: 0 14px 20px 4px rgba(0, 0, 0, 0.85);
+}
+
+.ulWishlist li{
+    margin:10px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-size: 16px;
+    font-weight: bold;
 }
 
 footer {
