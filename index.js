@@ -1,4 +1,4 @@
-const whish = "animal.html";
+const whish = "whishlist.html";
 let anis = [];
 
 const wishi = [];
