@@ -3,12 +3,10 @@ const drawFiltros = () => {
     $(document).ready(() => {
 
         const filtro = document.querySelector('#filtro');
-
         const tituloFiltro = document.createElement("h4");
         tituloFiltro.className = "h4";
         tituloFiltro.innerText = "Filtros";
         filtro.appendChild(tituloFiltro);
-
 
         /* TIPO */
         filtro.appendChild(document.createElement("br"));
@@ -30,7 +28,6 @@ const drawFiltros = () => {
                 anis = animales.filter(animal => animal.tipo == $("#tipo option:selected").val() || animal.nombre == $('#nombre').val());
                 drawAnimales();
             }
-
         })
 
         filtro.appendChild(document.createElement("br"));
@@ -191,11 +188,8 @@ const drawAnimales = () => {
 
 
 const start = () => {
-    /* drawPerros();
-    drawGatos(); */
     anis = animales;
     drawFiltros();
     drawAnimales();
 }
-
 start();
