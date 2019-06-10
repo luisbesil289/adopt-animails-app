@@ -41,6 +41,14 @@ body {
         background-position: right;
         width: 40px;
     }
+    .btnCerrarCard {
+        margin-left: 81%;
+        position: absolute;
+        top: 2%;
+        background-repeat: no-repeat;
+        background-position: right;
+        width: 40px;
+    }
 }
 
 @media all and (max-width: 669px) and (min-width: 520px) {
@@ -63,6 +71,16 @@ body {
         background-position: right;
         width: 40px;
     }
+    .btnCerrarCard {
+        margin-left: 81%;
+        position: absolute;
+        top: 2%;
+    /*     left: 85%; */
+        /* background-color: rgb(240, 251, 255); */
+        background-repeat: no-repeat;
+        background-position: right;
+        width: 40px;
+    }
 }
 
 @media all and (min-width: 670px) {
@@ -78,14 +96,26 @@ body {
     .wish {
         margin-right: 15%;
         position: relative;
-        padding-bottom: 2px;
+        padding-bottom: 2px;        
         left: 92%;
         background-color: rgb(240, 251, 255);
         background-repeat: no-repeat;
         background-position: right;
         width: 25px;
     }
+    .btnCerrarCard {
+        margin-left: 73%;
+        position: absolute;
+        top: 2%;
+    /*     left: 85%; */
+        /* background-color: rgb(240, 251, 255); */
+        background-repeat: no-repeat;
+        background-position: right;
+        width: 40px;
+    }
 }
+
+
 
 h1 {
     text-align: center;
@@ -138,12 +168,36 @@ body p {
     box-shadow: 0 14px 20px 4px rgba(0, 0, 0, 0.45);
 }
 
+.card-title{
+    margin-bottom: 140px;
+    width: 100%;
+    margin: auto auto;
+    
+}
+
+.rounded-circle{
+    /* margin-bottom: 140px; */
+    height: 80px; 
+    width: 80px;
+    margin: auto auto;
+    box-shadow: 0 14px 20px 4px rgba(0, 0, 0, 0.70);
+}
+
 .card .card-body {
     background-color: rgb(240, 251, 255);
     background-image: url("assets/Logo-02.png");
     background-repeat: no-repeat;
     background-size: auto;
     background-position: right;
+}
+
+.card-wishlist {
+    background-color: white;   
+      
+    background-repeat: no-repeat;
+    background-size:  auto;
+    background-position: right;
+   box-shadow: 0 14px 20px 4px rgba(0, 0, 0, 0.70);
 }
 
 .imagen {
