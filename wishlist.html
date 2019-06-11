@@ -6,7 +6,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
@@ -20,57 +21,62 @@
 
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-            <a class="navbar-brand" href="list.html"><img src="assets/Logo-02.png" alt="Smiley face" height="53" width="70"></span>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
+        <a class="navbar-brand" href="list.html"><img src="assets/Logo-02.png" alt="Smiley face" height="53"
+                width="70"></span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="menuHorizontal collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="trans nav-link" href="list.html">Inicio <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="trans nav-link" href="newAnimal.html">Nuevo <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="trans nav-link" href="blog.html">Blog <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="trans nav-link" href="wishlist.html">Lista de deseos <span class="sr-only"></span></a>
+                </li>
+            </ul>
+
+
+            <ul class="nav-item">
+                <li class="nav-item">
+                    <figure class="figure">
+                        <a href="https://www.facebook.com" target="_blank"><img
+                                src="https://img.icons8.com/color/30/000000/facebook.png"></a>
+                    </figure>
+                </li>
+                <li class="trans nav-item">
+                    <figure class="figure">
+                        <a href="https://www.instagram.com" target="_blank"><img
+                                src="https://img.icons8.com/color/30/000000/instagram-new.png"></a>
+                    </figure>
+                </li>
+                <li class="nav-item">
+                    <figure class="figure">
+                        <a href="https://www.twitter.com" target="_blank"><img
+                                src="https://img.icons8.com/color/30/000000/twitter.png"></a>
+                    </figure>
+                </li>
+                <li class="nav-item">
+                    <figure class="figure">
+                        <a href="https://fedsenpai.slack.com/messages" target="_blank"><img
+                                src="https://img.icons8.com/color/30/000000/slack.png"></a>
+                    </figure>
+                </li>
+            </ul>
+
+            <br>
+            <button class="LogIn btn btn-outline-light " type="submit "> LogIn -
+                Register
             </button>
-            <div class="menuHorizontal collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="trans nav-link" href="list.html">Inicio <span class="sr-only"></span></a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="trans nav-link" href="newAnimal.html">Nuevo <span class="sr-only"></span></a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="trans nav-link" href="blog.html">Blog <span class="sr-only"></span></a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="trans nav-link" href="wishlist.html">Lista de deseos <span class="sr-only"></span></a>
-                    </li>
-                </ul>
-    
-    
-                <ul class="nav-item">
-                    <li class="nav-item">
-                        <figure class="figure">
-                            <a href="https://www.facebook.com" target="_blank"><img src="https://img.icons8.com/color/30/000000/facebook.png"></a>
-                        </figure>
-                    </li>
-                    <li class="trans nav-item">
-                        <figure class="figure">
-                            <a href="https://www.instagram.com" target="_blank"><img src="https://img.icons8.com/color/30/000000/instagram-new.png"></a>
-                        </figure>
-                    </li>
-                    <li class="nav-item">
-                        <figure class="figure">
-                            <a href="https://www.twitter.com" target="_blank"><img src="https://img.icons8.com/color/30/000000/twitter.png"></a>
-                        </figure>
-                    </li>
-                    <li class="nav-item">
-                        <figure class="figure">
-                            <a href="https://fedsenpai.slack.com/messages" target="_blank"><img src="https://img.icons8.com/color/30/000000/slack.png"></a>
-                        </figure>
-                    </li>
-                </ul>
-    
-                <br>
-                <button class="LogIn btn btn-outline-light " type="submit "> LogIn -
-                    Register
-                </button>
-            </div>
-        </nav>
+        </div>
+    </nav>
 
     <main>
         <section>
@@ -91,34 +97,44 @@
 
             <!-- Card -->
 
+
             <div class="container">
                 <div class="row justify-content-center" id="animal-list">
-                   <!-- Cards Dinamicas -->
+                    <!-- DATOS DINAMICOS -->
+
                 </div>
             </div>
         </section>
     </main>
 
-     <!--FOOTER-->
-     <hr />
-     <footer>
-         <div class="container">
-             <div class="row justify-content-center">
-                 <div class="col col-12">
-                     <p class="copyright">Copyright © 2019 <a href="mailto:l.besil@gmail.com " target="_blank">Luis Besil</a>.
-                         <span class="second-line ">All Rights Reserved.</span>
-                     </p>
-                    
-                 </div>
-             </div>
-         </div>
-     </footer>
-     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
-     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
- 
+    <!--FOOTER-->
+    <hr />
+    <footer>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col col-12">
+                    <p class="copyright">Copyright © 2019 <a href="mailto:l.besil@gmail.com " target="_blank">Luis
+                            Besil</a>.
+                        <span class="second-line ">All Rights Reserved.</span>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js "
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo "
+        crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js "
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 "
+        crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js "
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM "
+        crossorigin="anonymous "></script>
+
 
 </body>
 <script src="datos.js"></script>
 <script src="wishlist.js"></script>
+
 </html>

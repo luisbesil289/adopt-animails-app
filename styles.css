@@ -104,11 +104,11 @@ body {
         width: 25px;
     }
     .btnCerrarCard {
-        margin-left: 73%;
+        margin-left: 81%;
         position: absolute;
         top: 2%;
     /*     left: 85%; */
-        /* background-color: rgb(240, 251, 255); */
+         background-color: rgb(240, 251, 255); 
         background-repeat: no-repeat;
         background-position: right;
         width: 40px;
