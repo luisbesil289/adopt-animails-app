@@ -147,6 +147,17 @@ h5 {
     color: rgb(0, 111, 175);
 }
 
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+  }
+
+
 body p {
     font-family: Vegur, 'PT Sans', Verdana, sans-serif;
     font-size: 14px;
@@ -159,6 +170,18 @@ body p {
 .cardLista {
     margin-bottom: 1.5em;
     box-shadow: 0 14px 20px 4px rgba(0, 0, 0, 0.85);
+}
+
+.cardFicha {
+    margin-bottom: 1.5em;
+    box-shadow: 0 14px 20px 4px rgba(0, 0, 0, 0.35);
+    background-color:#343a40;
+    color:white;
+}
+
+.cardFicha h4 {
+    margin-top: 10px;
+  
 }
 
 .cardAnimal {
@@ -202,26 +225,6 @@ body p {
     background-size:  auto;
     background-position: right;
    box-shadow: 0 14px 20px 4px rgba(0, 0, 0, 0.70);
-}
-
-.imagen {
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-   
-   
-}
-
-.imagen2 {
-   
-    background-position: center;
-    background-color: rgba(245, 245, 245, 1);
-    opacity: .2;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
 }
 
 
