@@ -207,12 +207,23 @@ body p {
 .imagen {
     background-repeat: no-repeat;
     background-position: center;
-    position: absolute;
-    opacity: 0.2;
     width: 100%;
-    z-index: 1;
-    float: none;
+    max-width: 100%;
+    height: auto;
+   
+   
 }
+
+.imagen2 {
+   
+    background-position: center;
+    background-color: rgba(245, 245, 245, 1);
+    opacity: .2;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
 
 .miniaturas {
     margin-top: 20px;
