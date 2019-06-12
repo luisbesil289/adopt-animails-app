@@ -1,0 +1,342 @@
+figure {
+    float: right;
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+    margin: 20%;
+    padding: 0.2em;
+}
+
+body {
+    background-image: url("assets/Logo-02.png");
+    background-image: no-repeat;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+@media all and (max-width: 520px) {
+    body {
+        background-color: white;
+        font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+    }
+    /* arrow que va va al inicio de la pantalla, en Responsive menor de 520  */
+    .flotante {
+        width: 100%;
+        display: scroll;
+        position: relative;
+        top: 34px;
+        left: 3%;
+        margin-top: 10px;
+    }
+    .wish {
+        margin-right: 15%;
+        position: absolute;
+        top: 3%;
+        left: 88%;
+        background-color: rgb(240, 251, 255);
+        background-repeat: no-repeat;
+        background-position: right;
+        width: 40px;
+    }
+    .btnCerrarCard {
+        margin-left: 81%;
+        position: absolute;
+        top: 2%;
+        background-repeat: no-repeat;
+        background-position: right;
+        width: 40px;
+    }
+}
+
+@media all and (max-width: 669px) and (min-width: 520px) {
+    body {
+        background-image: url("assets/Logo-02.png");
+        font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+    }
+    .flotante {
+        display: none;
+    }
+    .wish {
+        margin-right: 15%;
+        position: absolute;
+        top: 3%;
+        left: 88%;
+        background-color: rgb(240, 251, 255);
+        background-repeat: no-repeat;
+        background-position: right;
+        width: 40px;
+    }
+    .btnCerrarCard {
+        margin-left: 81%;
+        position: absolute;
+        top: 2%;
+    /*     left: 85%; */
+        /* background-color: rgb(240, 251, 255); */
+        background-repeat: no-repeat;
+        background-position: right;
+        width: 40px;
+    }
+}
+
+@media all and (min-width: 670px) {
+    body {
+        background-image: url("assets/Logo-02.png");
+        font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+    }
+    .flotante {
+        display: none;
+    }
+    .wish {
+        margin-right: 15%;
+        position: relative;
+        padding-bottom: 2px;        
+        left: 92%;
+        background-color: rgb(240, 251, 255);
+        background-repeat: no-repeat;
+        background-position: right;
+        width: 25px;
+    }
+    .btnCerrarCard {
+        margin-left: 81%;
+        position: absolute;
+        top: 2%;
+    /*     left: 85%; */
+         background-color: rgb(240, 251, 255); 
+        background-repeat: no-repeat;
+        background-position: right;
+        width: 40px;
+    }
+}
+
+
+
+h1 {
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(0, 111, 175);
+}
+
+h1 {
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(0, 111, 175);
+}
+
+h3 {
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(0, 111, 175);
+}
+
+h4 {
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h5 {
+    margin-top: 10px;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(0, 111, 175);
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+  }
+
+
+body p {
+    font-family: Vegur, 'PT Sans', Verdana, sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    text-indent: 10px;
+    line-height: 20px;
+    color: rgb(0, 50, 78);
+}
+
+.cardLista {
+    margin-bottom: 1.5em;
+    box-shadow: 0 14px 20px 4px rgba(0, 0, 0, 0.85);
+}
+
+.cardFicha {
+    margin-bottom: 1.5em;
+    box-shadow: 0 14px 20px 4px rgba(0, 0, 0, 0.35);
+    background-color:#343a40;
+    color:white;
+}
+
+.cardFicha h4 {
+    margin-top: 10px;
+  
+}
+
+.cardAnimal {
+    margin-bottom: 140px;
+    width: 100%;
+    margin: auto auto;
+    box-shadow: 0 14px 20px 4px rgba(0, 0, 0, 0.45);
+}
+
+.card-titleWish{
+    margin-bottom: 140px;
+    width: 100%;
+    margin: auto auto;
+    margin:10px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+.rounded-circle{
+    height: 80px; 
+    width: 80px;
+    margin: auto auto;
+    box-shadow: 0 14px 20px 4px rgba(0, 0, 0, 0.70);
+}
+
+.card .card-body {
+    background-color: rgb(240, 251, 255);
+    background-image: url("assets/Logo-02.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right;
+}
+
+.card-wishlist {
+    background-color: white;   
+      
+    background-repeat: no-repeat;
+    background-size:  auto;
+    background-position: right;
+   box-shadow: 0 14px 20px 4px rgba(0, 0, 0, 0.70);
+}
+
+
+.miniaturas {
+    margin-top: 20px;
+}
+
+.menuHorizontal ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #343a40;
+}
+
+.menuHorizontal li {
+    float: left;
+}
+
+.menuHorizontal li .trans {
+    border: none;
+    color: white;
+    padding: 1px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.7s;
+}
+
+.menuHorizontal li .trans:hover {
+    background-color: #b3d7ff;
+    color: black;
+}
+
+.rowPrincipal {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.serchVerticalL {
+    border-right: 2px solid #b3d7ff;
+    text-align: left;
+    background-color: #343a40!important;
+    color: rgb(255, 255, 255);
+}
+
+#filtro {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.serchVerticalR {
+    border-left: 2px solid #b3d7ff;
+    background-color: #343a40!important;
+    position: relative;
+}
+
+.logo {
+    text-align: center;
+    padding-top: 5px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.LogInn {
+    text-align: right;
+}
+
+.formNuevoAnimal {
+    box-shadow: 0 14px 20px 4px rgba(0, 0, 0, 0.85);
+}
+
+.ulWishlist li{
+    margin:10px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-size: 16px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #fff;
+    border-top: 1px solid #ededed;
+    position: relative;
+    color: #484848;
+    text-align: center;
+}
+
+footer p {
+    background-color: #fff;
+    border-top: 1px solid #ededed;
+    padding: 10px;
+    position: relative;
+    color: #484848;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#cacho {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+
+footer li {
+    float: left;
+}
+
+footer .copyright {
+    opacity: .5;
+    line-height: 1.7;
+}
