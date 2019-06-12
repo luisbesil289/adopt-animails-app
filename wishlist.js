@@ -15,15 +15,12 @@ const drawAnimalesWishlist = () => {
         cardBody.className = "card-body";
         cardLista.appendChild(cardBody);
 
-/* <button type="button" class="btn btn-danger btn-outline-dark btnCerrarCard">x</button> */
         const cardButtonimg = document.createElement("a");
         cardButtonimg.className = "";
-        /* cardButtonimg.setAttribute('href', pageWishlist); */
         cardBody.appendChild(cardButtonimg);
         const cardWish = document.createElement("a");
         cardWish.className = "btn-block btn btn-outline-dark btnCerrarCard";
         cardWish.innerText="x";
-        /* cardWish.src = "assets/heart.png"; */
         $(cardWish).on('click', () => {            
             animales.splice(animal,1);
         });
