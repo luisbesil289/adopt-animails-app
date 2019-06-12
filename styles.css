@@ -1,16 +1,45 @@
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+    /* arrow que va va al inicio de la pantalla, en Responsive menor de 520 */
+    .flotante {
+        width: 100%;
+        display: scroll;
+        position: relative;
+        top: 34px;
+        left: 3%;
+        margin-top: 10px;
+    }
+}
 
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .flotante {
+        display: none;
+    }
+}
 
-@media (min-width: 576px) and (max-width: 767.98px) {  }
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .flotante {
+        display: none;
+    }
+}
 
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .flotante {
+        display: none;
+    }
+}
 
-@media (min-width: 768px) and (max-width: 991.98px) {  }
+@media (min-width: 1200px) {
+    .flotante {
+        display: none;
+    }
+}
 
-
-@media (min-width: 992px) and (max-width: 1199.98px) { }
-
-
-@media (min-width: 1200px) {  }
+body {
+    background-color: white;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
 
 .logo {
     text-align: center;
@@ -30,28 +59,18 @@
     box-shadow: 0 14px 20px 4px rgba(0, 0, 0, 0.85);
 }
 
- .card-imagen{
-    width: 80px;
-/*     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.95); */
- 
-} 
+.serchVerticalL {
+    border-right: 2px solid #b3d7ff;
+    text-align: left;
+    background-color: #343a40!important;
+    color: rgb(255, 255, 255);
+}
 
-
-.material-icons {
-    font-family: 'Material Icons';
-    font-weight: normal;
-    font-style: normal;
-    font-size: 24px;
-    line-height: 1;
-    letter-spacing: normal;
-    text-transform: none;
-    display: inline-block;
-    white-space: nowrap;
-    word-wrap: normal;
-    direction: ltr;
-
-  }
-
+.serchVerticalR {
+    border-left: 2px solid #b3d7ff;
+    background-color: #343a40!important;
+    position: relative;
+}
 
 footer {
     background-color: #fff;
